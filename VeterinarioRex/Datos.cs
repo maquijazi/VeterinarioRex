@@ -68,5 +68,17 @@ namespace VeterinarioRex
             tbDIRBUS.Text = veterinary.Rows[0]["DIRECCION"].ToString();
             tbLOCBUS.Text = veterinary.Rows[0]["LOCALIDAD"].ToString();
         }
+
+        private void botGRIDMAS_Click(object sender, EventArgs e)
+        {
+            gridMascotas ventana = new gridMascotas();
+            ventana.Show();
+        }
+
+        private void botGRIDCLI_Click(object sender, EventArgs e)
+        {
+            gridClientes ventana = new gridClientes();
+            ventana.Show();
+        }
     }
 }

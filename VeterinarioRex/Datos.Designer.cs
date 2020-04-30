@@ -50,7 +50,6 @@
             this.tbNOMCLI = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.btREGMAS = new System.Windows.Forms.Button();
             this.tbRAZMAS = new System.Windows.Forms.TextBox();
@@ -68,7 +67,6 @@
             this.tbNOMMAS = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.tabpage3 = new System.Windows.Forms.TabPage();
             this.btUSUARIO = new System.Windows.Forms.Button();
@@ -78,7 +76,6 @@
             this.tbDNI = new System.Windows.Forms.TextBox();
             this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label24 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.botBUSMAS = new System.Windows.Forms.Button();
@@ -97,7 +94,6 @@
             this.tbNOMBUS = new System.Windows.Forms.TextBox();
             this.label30 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.botBUSCLI = new System.Windows.Forms.Button();
             this.tbTEL1BUS = new System.Windows.Forms.TextBox();
@@ -113,43 +109,32 @@
             this.tbNOMBUSCLI = new System.Windows.Forms.TextBox();
             this.label36 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.tbTEL2BUS = new System.Windows.Forms.TextBox();
             this.label38 = new System.Windows.Forms.Label();
             this.tbLOCBUS = new System.Windows.Forms.TextBox();
             this.label39 = new System.Windows.Forms.Label();
             this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label34 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label40 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label41 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label42 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label43 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label44 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.label45 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.label46 = new System.Windows.Forms.Label();
+            this.botGRIDMAS = new System.Windows.Forms.Button();
             this.label47 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.botGRIDCLI = new System.Windows.Forms.Button();
             this.llll.SuspendLayout();
             this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.tabPage1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabpage3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.tabPage4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.tabPage5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.tabPage6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
@@ -384,18 +369,6 @@
             this.label18.Text = "NUEVO CLIENTE";
             this.label18.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Default;
-            this.pictureBox2.Image = global::VeterinarioRex.Properties.Resources.PRUEBA1;
-            this.pictureBox2.Location = new System.Drawing.Point(324, 37);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(500, 92);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 20;
-            this.pictureBox2.TabStop = false;
-            // 
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
@@ -591,18 +564,6 @@
             this.label1.Text = "NUEVA MASCOTA";
             this.label1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.pictureBox1.Image = global::VeterinarioRex.Properties.Resources.PRUEBA1;
-            this.pictureBox1.Location = new System.Drawing.Point(324, 37);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(500, 92);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            // 
             // imageList1
             // 
             this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
@@ -613,6 +574,7 @@
             this.imageList1.Images.SetKeyName(3, "user.ico");
             this.imageList1.Images.SetKeyName(4, "busqueda.ico");
             this.imageList1.Images.SetKeyName(5, "busquedamascota.ico");
+            this.imageList1.Images.SetKeyName(6, "grid.ico");
             // 
             // tabpage3
             // 
@@ -709,18 +671,6 @@
             this.label27.TabIndex = 40;
             this.label27.Text = "NUEVO USUARIO";
             this.label27.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Default;
-            this.pictureBox3.Image = global::VeterinarioRex.Properties.Resources.PRUEBA1;
-            this.pictureBox3.Location = new System.Drawing.Point(324, 37);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(500, 92);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 39;
-            this.pictureBox3.TabStop = false;
             // 
             // label24
             // 
@@ -926,18 +876,6 @@
             this.label31.Text = "BUSQUEDA MASCOTA";
             this.label31.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Default;
-            this.pictureBox4.Image = global::VeterinarioRex.Properties.Resources.PRUEBA1;
-            this.pictureBox4.Location = new System.Drawing.Point(324, 37);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(500, 92);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 22;
-            this.pictureBox4.TabStop = false;
-            // 
             // tabPage5
             // 
             this.tabPage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
@@ -1114,18 +1052,6 @@
             this.label37.Text = "BUSQUEDA CLIENTE";
             this.label37.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Default;
-            this.pictureBox5.Image = global::VeterinarioRex.Properties.Resources.PRUEBA1;
-            this.pictureBox5.Location = new System.Drawing.Point(324, 37);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(500, 92);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 40;
-            this.pictureBox5.TabStop = false;
-            // 
             // tbTEL2BUS
             // 
             this.tbTEL2BUS.Font = new System.Drawing.Font("Adobe Devanagari", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1168,229 +1094,130 @@
             // 
             // tabPage6
             // 
-            this.tabPage6.Controls.Add(this.textBox1);
-            this.tabPage6.Controls.Add(this.label34);
-            this.tabPage6.Controls.Add(this.textBox2);
-            this.tabPage6.Controls.Add(this.label40);
-            this.tabPage6.Controls.Add(this.button1);
-            this.tabPage6.Controls.Add(this.textBox3);
-            this.tabPage6.Controls.Add(this.label41);
-            this.tabPage6.Controls.Add(this.textBox4);
-            this.tabPage6.Controls.Add(this.label42);
-            this.tabPage6.Controls.Add(this.textBox5);
-            this.tabPage6.Controls.Add(this.label43);
-            this.tabPage6.Controls.Add(this.textBox6);
-            this.tabPage6.Controls.Add(this.label44);
-            this.tabPage6.Controls.Add(this.textBox7);
-            this.tabPage6.Controls.Add(this.label45);
-            this.tabPage6.Controls.Add(this.textBox8);
-            this.tabPage6.Controls.Add(this.label46);
+            this.tabPage6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.tabPage6.Controls.Add(this.botGRIDCLI);
+            this.tabPage6.Controls.Add(this.botGRIDMAS);
             this.tabPage6.Controls.Add(this.label47);
             this.tabPage6.Controls.Add(this.pictureBox6);
+            this.tabPage6.ImageIndex = 6;
             this.tabPage6.Location = new System.Drawing.Point(4, 39);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage6.Size = new System.Drawing.Size(1129, 698);
             this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "tabPage6";
-            this.tabPage6.UseVisualStyleBackColor = true;
+            this.tabPage6.Text = "Tablas Completas";
             // 
-            // textBox1
+            // botGRIDMAS
             // 
-            this.textBox1.Font = new System.Drawing.Font("Adobe Devanagari", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(792, 469);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(220, 30);
-            this.textBox1.TabIndex = 79;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label34
-            // 
-            this.label34.Font = new System.Drawing.Font("Adobe Devanagari", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(622, 457);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(150, 54);
-            this.label34.TabIndex = 78;
-            this.label34.Text = "LOCALIDAD";
-            this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Font = new System.Drawing.Font("Adobe Devanagari", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(273, 519);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(220, 30);
-            this.textBox2.TabIndex = 77;
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label40
-            // 
-            this.label40.Font = new System.Drawing.Font("Adobe Devanagari", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label40.Location = new System.Drawing.Point(117, 507);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(150, 54);
-            this.label40.TabIndex = 76;
-            this.label40.Text = "TELEFONO 2";
-            this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.SteelBlue;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Adobe Devanagari", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(786, 598);
-            this.button1.Name = "button1";
-            this.button1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.button1.Size = new System.Drawing.Size(178, 58);
-            this.button1.TabIndex = 75;
-            this.button1.Text = "BUSCAR";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Font = new System.Drawing.Font("Adobe Devanagari", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(273, 465);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(220, 30);
-            this.textBox3.TabIndex = 74;
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label41
-            // 
-            this.label41.Font = new System.Drawing.Font("Adobe Devanagari", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label41.Location = new System.Drawing.Point(117, 453);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(150, 54);
-            this.label41.TabIndex = 73;
-            this.label41.Text = "TELEFONO 1";
-            this.label41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Font = new System.Drawing.Font("Adobe Devanagari", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(792, 415);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(220, 30);
-            this.textBox4.TabIndex = 72;
-            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label42
-            // 
-            this.label42.Font = new System.Drawing.Font("Adobe Devanagari", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.Location = new System.Drawing.Point(622, 403);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(150, 54);
-            this.label42.TabIndex = 71;
-            this.label42.Text = "DIRECCIÓN";
-            this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Font = new System.Drawing.Font("Adobe Devanagari", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(792, 357);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(220, 30);
-            this.textBox5.TabIndex = 70;
-            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label43
-            // 
-            this.label43.Font = new System.Drawing.Font("Adobe Devanagari", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.Location = new System.Drawing.Point(612, 349);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(174, 54);
-            this.label43.TabIndex = 69;
-            this.label43.Text = "EMAIL";
-            this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Font = new System.Drawing.Font("Adobe Devanagari", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(273, 411);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(220, 30);
-            this.textBox6.TabIndex = 68;
-            this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label44
-            // 
-            this.label44.Font = new System.Drawing.Font("Adobe Devanagari", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label44.Location = new System.Drawing.Point(117, 399);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(150, 54);
-            this.label44.TabIndex = 67;
-            this.label44.Text = "APELLIDOS";
-            this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Font = new System.Drawing.Font("Adobe Devanagari", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(273, 353);
-            this.textBox7.Multiline = true;
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(220, 30);
-            this.textBox7.TabIndex = 66;
-            this.textBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label45
-            // 
-            this.label45.Font = new System.Drawing.Font("Adobe Devanagari", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label45.Location = new System.Drawing.Point(117, 345);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(150, 54);
-            this.label45.TabIndex = 65;
-            this.label45.Text = "DNI";
-            this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Font = new System.Drawing.Font("Adobe Devanagari", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(499, 263);
-            this.textBox8.Multiline = true;
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(220, 30);
-            this.textBox8.TabIndex = 64;
-            this.textBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label46
-            // 
-            this.label46.Font = new System.Drawing.Font("Adobe Devanagari", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label46.Location = new System.Drawing.Point(343, 255);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(150, 54);
-            this.label46.TabIndex = 63;
-            this.label46.Text = "NOMBRE";
-            this.label46.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.botGRIDMAS.BackColor = System.Drawing.Color.SteelBlue;
+            this.botGRIDMAS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botGRIDMAS.Font = new System.Drawing.Font("Adobe Devanagari", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botGRIDMAS.Location = new System.Drawing.Point(478, 458);
+            this.botGRIDMAS.Name = "botGRIDMAS";
+            this.botGRIDMAS.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.botGRIDMAS.Size = new System.Drawing.Size(223, 107);
+            this.botGRIDMAS.TabIndex = 75;
+            this.botGRIDMAS.Text = "MASCOTAS";
+            this.botGRIDMAS.UseVisualStyleBackColor = false;
+            this.botGRIDMAS.Click += new System.EventHandler(this.botGRIDMAS_Click);
             // 
             // label47
             // 
             this.label47.BackColor = System.Drawing.Color.PaleTurquoise;
             this.label47.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label47.Font = new System.Drawing.Font("Adobe Devanagari", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label47.Location = new System.Drawing.Point(377, 170);
+            this.label47.Location = new System.Drawing.Point(429, 164);
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(309, 48);
             this.label47.TabIndex = 62;
-            this.label47.Text = "BUSQUEDA CLIENTE";
+            this.label47.Text = "TABLAS COMPLETAS";
             this.label47.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureBox3.Image = global::VeterinarioRex.Properties.Resources.PRUEBA1;
+            this.pictureBox3.Location = new System.Drawing.Point(324, 37);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(500, 92);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 39;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureBox2.Image = global::VeterinarioRex.Properties.Resources.PRUEBA1;
+            this.pictureBox2.Location = new System.Drawing.Point(324, 37);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(500, 92);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 20;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureBox1.Image = global::VeterinarioRex.Properties.Resources.PRUEBA1;
+            this.pictureBox1.Location = new System.Drawing.Point(324, 37);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(500, 92);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureBox4.Image = global::VeterinarioRex.Properties.Resources.PRUEBA1;
+            this.pictureBox4.Location = new System.Drawing.Point(324, 37);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(500, 92);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 22;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureBox5.Image = global::VeterinarioRex.Properties.Resources.PRUEBA1;
+            this.pictureBox5.Location = new System.Drawing.Point(324, 37);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(500, 92);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 40;
+            this.pictureBox5.TabStop = false;
             // 
             // pictureBox6
             // 
             this.pictureBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Default;
             this.pictureBox6.Image = global::VeterinarioRex.Properties.Resources.PRUEBA1;
-            this.pictureBox6.Location = new System.Drawing.Point(272, 43);
+            this.pictureBox6.Location = new System.Drawing.Point(324, 37);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(500, 92);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 61;
             this.pictureBox6.TabStop = false;
+            // 
+            // botGRIDCLI
+            // 
+            this.botGRIDCLI.BackColor = System.Drawing.Color.SteelBlue;
+            this.botGRIDCLI.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botGRIDCLI.Font = new System.Drawing.Font("Adobe Devanagari", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botGRIDCLI.Location = new System.Drawing.Point(478, 284);
+            this.botGRIDCLI.Name = "botGRIDCLI";
+            this.botGRIDCLI.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.botGRIDCLI.Size = new System.Drawing.Size(223, 107);
+            this.botGRIDCLI.TabIndex = 76;
+            this.botGRIDCLI.Text = "CLIENTES";
+            this.botGRIDCLI.UseVisualStyleBackColor = false;
+            this.botGRIDCLI.Click += new System.EventHandler(this.botGRIDCLI_Click);
             // 
             // Datos
             // 
@@ -1404,21 +1231,20 @@
             this.llll.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabpage3.ResumeLayout(false);
             this.tabpage3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.tabPage6.ResumeLayout(false);
-            this.tabPage6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
 
@@ -1515,24 +1341,9 @@
         private System.Windows.Forms.TextBox tbTEL2BUS;
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.TabPage tabPage6;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label41;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Label label44;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.Label label45;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.Label label46;
+        private System.Windows.Forms.Button botGRIDMAS;
         private System.Windows.Forms.Label label47;
         private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.Button botGRIDCLI;
     }
 }

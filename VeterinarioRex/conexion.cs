@@ -177,6 +177,44 @@ namespace VeterinarioRex
                 throw e;
             }
         }
+
+        public DataTable getTodasMascotas()
+        {
+            try
+            {
+                conexion.Open();
+                MySqlCommand consulta =
+                    new MySqlCommand("SELECT * FROM mascota", conexion);
+                MySqlDataReader resultado = consulta.ExecuteReader();
+                DataTable veterinary = new DataTable();
+                veterinary.Load(resultado);
+                conexion.Close();
+                return veterinary;
+            }
+            catch (MySqlException e)
+            {
+                throw e;
+            }
+        }
+
+        public DataTable getTodosClientes()
+        {
+            try
+            {
+                conexion.Open();
+                MySqlCommand consulta =
+                    new MySqlCommand("SELECT * FROM cliente", conexion);
+                MySqlDataReader resultado = consulta.ExecuteReader();
+                DataTable veterinary = new DataTable();
+                veterinary.Load(resultado);
+                conexion.Close();
+                return veterinary;
+            }
+            catch (MySqlException e)
+            {
+                throw e;
+            }
+        }
     }
 
 
