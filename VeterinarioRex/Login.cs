@@ -19,12 +19,12 @@ namespace VeterinarioRex
             InitializeComponent();
         }
 
-        
-
-        
-
         private void button1_Click(object sender, EventArgs e)
         {
+            //Datos v = new Datos();
+            //v.Show();
+            //this.Hide();
+
             if (conexion.loginVeterinario(textBoxDNI.Text, textBoxPASSWORD.Text))
             {
                 Datos v = new Datos();
@@ -35,8 +35,6 @@ namespace VeterinarioRex
             {
                 MessageBox.Show("El USUARIO o CONTRASEÑA son incorrectos");
             }
-           
-
         }
         //Método para que se cierre entera la aplicación
         protected override void OnFormClosing(FormClosingEventArgs e)
