@@ -16,7 +16,7 @@ namespace VeterinarioRex
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Datos());
+            Application.Run(new Login());
         }
     }
 }

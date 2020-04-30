@@ -16,5 +16,11 @@ namespace VeterinarioRex
         {
             InitializeComponent();
         }
+
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            if (e.CloseReason == CloseReason.WindowsShutDown) return;
+            Application.Exit();
+        }
     }
 }
